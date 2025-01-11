@@ -51,6 +51,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
     </tr>
   </table>
 </div>
+</div>
 
 ## 🖥️ Website Sections
 
