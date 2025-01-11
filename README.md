@@ -53,6 +53,60 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 </div>
 </div>
 
+## 🖼️ System Screenshots
+
+<div align="center">
+  <table>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/243215eb-571a-4fe8-91c9-d019096ccd1c" width="1000px" alt="Hero Section"/></kbd>
+        <br><br>
+        <b>Hero Section</b>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/beb15ed1-85b0-49e6-b6cc-42ea9e7d30aa" width="1000px" alt="About Section"/></kbd>
+        <br><br>
+        <b>About Section</b>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/5efda6a1-8c93-4e6e-81d9-d5d0f41ba1ca" width="1000px" alt="Skills Section"/></kbd>
+        <br><br>
+        <b>Skills & Experience Section</b>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/75551aff-efc0-4cfa-a251-07a41e2ab854" width="1000px" alt="Projects Section"/></kbd>
+        <br><br>
+        <b>Projects Section</b>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/c7e7ab65-dcf9-4b03-adca-32a38ff6e9f3" width="1000px" alt="Quote Section"/></kbd>
+        <br><br>
+        <b>Quote Section</b>
+      </td>
+    </tr>
+    <tr><td><br></td></tr>
+    <tr>
+      <td align="center">
+        <kbd><img src="https://github.com/user-attachments/assets/062cfd51-543a-430d-9719-3a579119c481" width="1000px" alt="Footer Section"/></kbd>
+        <br><br>
+        <b>Footer Section</b>
+      </td>
+    </tr>
+  </table>
+</div>
+
 ## 🖥️ Website Sections
 
 <div align="center">
