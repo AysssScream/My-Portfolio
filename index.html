@@ -1,0 +1,873 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Jezebel's Portfolio</title>
+    
+    <!-- Google Fonts - Poppins -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">    
+    <!-- Lord Icon -->
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css">
+
+    
+    <!-- CSS -->
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="about.css">
+    <link rel="stylesheet" href="footer.css">
+    <link rel="stylesheet" href="experience.css">
+    <link rel="stylesheet" href="aboutme.css">
+    <link rel="stylesheet" href="hero.css">
+    <link rel="stylesheet" href="projects.css">
+
+
+</head>
+<body>
+<!-- Header Section -->
+<header class="header">
+    <div class="header-container">
+        <a href="#" class="logo">Jezebel</a>
+        
+        <nav class="nav-menu">
+            <ul class="nav-list">
+                <li><a href="#about-me" class="nav-link">About</a></li>
+                <li><a href="#experience" class="nav-link">Skills</a></li>
+                <li><a href="#projects" class="nav-link">Projects</a></li>
+                <li><a href="#footer" class="nav-link">Contact</a></li>
+            </ul>
+        </nav>
+
+        <button class="hamburger" aria-label="Menu">
+            <span class="bar"></span>
+            <span class="bar"></span>
+            <span class="bar"></span>
+        </button>
+    </div>
+</header>
+
+
+
+<!-- Hero Section -->
+<section id="hero" class="hero-section">
+    <div class="hero-container">
+        <div class="hero-content">
+            <div class="hero-text">
+                <div class="name-container">
+                    <p class="greeting">Hey there! 👋</p>
+                    <h1 class="name">I'm Jezebel</h1>
+                    <p class="subtitle">Student Intern</p>
+                    <div class="typing-container">
+                        <span class="typing-text">I'm a </span>
+                        <span class="typed-text"></span>
+                        <span class="cursor">|</span>
+                    </div>
+                </div>
+                <p class="hero-description">
+                    A passionate Web Developer and UI Designer, crafting digital experiences 
+                    through code and design. Specializing in full-stack development and 
+                    artificial intelligence.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#projects" class="primary-btn">
+                        <span>View Projects</span>
+                        <i class="fas fa-arrow-right"></i>
+                    </a>
+                    <a href="#footer" class="secondary-btn">
+                        <span>Let's Connect</span>
+                        <i class="fas fa-paper-plane"></i>
+                    </a>
+                </div>
+            </div>
+            <div class="hero-image">
+                <img src="https://mir-s3-cdn-cf.behance.net/project_modules/max_1200/06f21a161921919.63cd7887d0a70.gif" 
+                     alt="Developer Animation" 
+                     class="developer-gif">
+                <div class="background-shapes">
+                    <div class="shape shape-1"></div>
+                    <div class="shape shape-2"></div>
+                    <div class="shape shape-3"></div>
+                </div>
+                <div class="tech-stack">
+                    <div class="tech-item">
+                        <i class="fab fa-react"></i>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-python"></i>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-js"></i>
+                    </div>
+                    <div class="tech-item">
+                        <i class="fab fa-html5"></i>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <div class="scroll-indicator">
+        <div class="scroll-text">Scroll Down</div>
+        <div class="scroll-mouse">
+            <div class="scroll-wheel"></div>
+        </div>
+        <div class="scroll-arrows">
+            <span></span>
+            <span></span>
+            <span></span>
+        </div>
+    </div>
+</section>
+
+<!-- About Me Section -->
+<section id="about-me" class="about-me-section">
+    <div class="container">
+        <div class="about-content">
+            <div class="about-text-container">
+                <h2 class="about-title">About Me</h2>
+                <div class="about-description">
+                    <p class="highlight-text">Hello! I'm Jezebel, a passionate Web Developer and UI Designer.</p>
+                    <p>I'm an aspiring full-stack developer and IT student with a strong foundation in AI, particularly Natural Language Processing (NLP), along with deep learning and machine learning. My journey in tech is driven by a desire to create intuitive, user-friendly experiences across various platforms.</p>
+                    <p>Currently pursuing my Bachelor's degree in Information Technology at Jose Rizal University, I combine my technical skills with a keen eye for design to develop responsive and functional solutions.</p>
+                </div>
+
+                <!-- Education Section -->
+                <div class="education-section">
+                    <h3 class="section-subtitle">Education</h3>
+                    <div class="education-item">
+                        <span class="year">2020 - Present</span>
+                        <h4>Bachelor of Science in Information Technology</h4>
+                        <p>Jose Rizal University</p>
+                    </div>
+                </div>
+
+                <div class="about-stats">
+                    <div class="stat-item">
+                        <span class="stat-number">2+</span>
+                        <span class="stat-label">Years Experience</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Projects Completed</span>
+                    </div>
+                    <div class="stat-item">
+                        <span class="stat-number">5+</span>
+                        <span class="stat-label">Tech Stack Experience</span>
+                    </div>
+                </div>
+            </div>
+
+            <div class="about-image-container">
+                <div class="image-frame">
+                    <img src="projects/image1.png" alt="Jezebel" class="about-image">
+                </div>
+                <a href="resume\BSIT_Resume2_Gauiran_Jezebel.pdf" class="download-cv" download>
+                    <i class="fas fa-file-download"></i>
+                    Download CV
+                </a>
+                <div class="social-icons">
+                    <a href="https://linkedin.com/in/" class="social-icon" target="_blank">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                    <a href="https://github.com/AysssScream" class="social-icon" target="_blank">
+                        <i class="fab fa-github"></i>
+                    </a>
+                </div>
+            </div>
+            
+</section>
+
+
+
+
+<!-- Skills & Experience Section -->
+<section id="experience" class="experience-section">
+    <div class="container">
+        <h2 class="section-title">Skills & Experience</h2>
+
+        <!-- Skills Grid -->
+        <div class="skills-container">
+            <!-- Programming & Development -->
+            <div class="skill-category">
+                <div class="skill-header">
+                    <div class="header-content">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/wloilxuq.json"
+                            trigger="hover"
+                            colors="primary:#1a1a1a"
+                            style="width:60px;height:60px">
+                        </lord-icon>
+                        <h3>Programming & Development</h3>
+                    </div>
+                </div>
+                <div class="skill-content">
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/wloilxuq.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Programming Languages</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black" alt="JavaScript"/>
+                            <img src="https://img.shields.io/badge/Java-ED8B00?style=for-the-badge&logo=java&logoColor=white" alt="Java"/>
+                            <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white" alt="PHP"/>
+                            <img src="https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white" alt="Python"/>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/dtgezzsi.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Front-End</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white" alt="HTML5"/>
+                            <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white" alt="CSS3"/>
+                            <img src="https://img.shields.io/badge/Tailwind_CSS-38B2AC?style=for-the-badge&logo=tailwind-css&logoColor=white" alt="Tailwind"/>
+                            <img src="https://img.shields.io/badge/Bootstrap-563D7C?style=for-the-badge&logo=bootstrap&logoColor=white" alt="Bootstrap"/>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/qhgmphtg.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Back-End</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/Laravel-FF2D20?style=for-the-badge&logo=laravel&logoColor=white" alt="Laravel"/>
+                            <img src="https://img.shields.io/badge/VB.NET-5C2D91?style=for-the-badge&logo=.net&logoColor=white" alt="VB.NET"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Data Science & ML -->
+            <div class="skill-category">
+                <div class="skill-header">
+                    <div class="header-content">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/soseozvi.json"
+                            trigger="hover"
+                            colors="primary:#1a1a1a"
+                            style="width:60px;height:60px">
+                        </lord-icon>
+                        <h3>Data Science & ML</h3>
+                    </div>
+                </div>
+                <div class="skill-content">
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/iltqorsz.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Frameworks & Libraries</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/TensorFlow-FF6F00?style=for-the-badge&logo=tensorflow&logoColor=white" alt="TensorFlow"/>
+                            <img src="https://img.shields.io/badge/PyTorch-EE4C2C?style=for-the-badge&logo=pytorch&logoColor=white" alt="PyTorch"/>
+                            <img src="https://img.shields.io/badge/scikit_learn-F7931E?style=for-the-badge&logo=scikit-learn&logoColor=white" alt="Scikit-learn"/>
+                            <img src="https://img.shields.io/badge/NLTK-154F5B?style=for-the-badge&logo=python&logoColor=white" alt="NLTK"/>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/eliwatfs.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Data Processing</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/Pandas-150458?style=for-the-badge&logo=pandas&logoColor=white" alt="Pandas"/>
+                            <img src="https://img.shields.io/badge/NumPy-013243?style=for-the-badge&logo=numpy&logoColor=white" alt="NumPy"/>
+                            <img src="https://img.shields.io/badge/Matplotlib-11557c?style=for-the-badge&logo=python&logoColor=white" alt="Matplotlib"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Tools & Technologies -->
+            <div class="skill-category">
+                <div class="skill-header">
+                    <div class="header-content">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/iltqorsz.json"
+                            trigger="hover"
+                            colors="primary:#1a1a1a"
+                            style="width:60px;height:60px">
+                        </lord-icon>
+                        <h3>Tools & Technologies</h3>
+                    </div>
+                </div>
+                <div class="skill-content">
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/gqdnbnwt.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Design Tools</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/Figma-F24E1E?style=for-the-badge&logo=figma&logoColor=white" alt="Figma"/>
+                            <img src="https://img.shields.io/badge/Canva-00C4CC?style=for-the-badge&logo=canva&logoColor=white" alt="Canva"/>
+                            <img src="https://img.shields.io/badge/Adobe_Animate-FF0000?style=for-the-badge&logo=adobe&logoColor=white" alt="Adobe Animate"/>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/eliwatfs.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Databases</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white" alt="MySQL"/>
+                            <img src="https://img.shields.io/badge/Oracle-F80000?style=for-the-badge&logo=oracle&logoColor=white" alt="Oracle"/>
+                        </div>
+                    </div>
+
+                    <div class="skill-group">
+                        <div class="group-header">
+                            <lord-icon
+                                src="https://cdn.lordicon.com/dtgezzsi.json"
+                                trigger="hover"
+                                colors="primary:#1a1a1a"
+                                style="width:30px;height:30px">
+                            </lord-icon>
+                            <h4>Development Tools</h4>
+                        </div>
+                        <div class="skill-badges">
+                            <img src="https://img.shields.io/badge/VS_Code-007ACC?style=for-the-badge&logo=visual-studio-code&logoColor=white" alt="VS Code"/>
+                            <img src="https://img.shields.io/badge/Eclipse-2C2255?style=for-the-badge&logo=eclipse&logoColor=white" alt="Eclipse"/>
+                            <img src="https://img.shields.io/badge/Google_Colab-F9AB00?style=for-the-badge&logo=google-colab&logoColor=white" alt="Google Colab"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Soft Skills -->
+            <div class="skill-category">
+                <div class="skill-header">
+                    <div class="header-content">
+                        <lord-icon
+                            src="https://cdn.lordicon.com/fdxqrdfe.json"
+                            trigger="hover"
+                            colors="primary:#1a1a1a"
+                            style="width:60px;height:60px">
+                        </lord-icon>
+                        <h3>Soft Skills</h3>
+                    </div>
+                </div>
+                <div class="skill-content">
+                    <div class="skill-group">
+                        <div class="skill-badges soft-skills">
+                            <img src="https://img.shields.io/badge/Adaptability-4CAF50?style=for-the-badge" alt="Adaptability"/>
+                            <img src="https://img.shields.io/badge/Communication-2196F3?style=for-the-badge" alt="Communication"/>
+                            <img src="https://img.shields.io/badge/Critical_Thinking-673AB7?style=for-the-badge" alt="Critical Thinking"/>
+                            <img src="https://img.shields.io/badge/Problem_Solving-F44336?style=for-the-badge" alt="Problem Solving"/>
+                            <img src="https://img.shields.io/badge/Teamwork-009688?style=for-the-badge" alt="Teamwork"/>
+                            <img src="https://img.shields.io/badge/Time_Management-FF5722?style=for-the-badge" alt="Time Management"/>
+                            <img src="https://img.shields.io/badge/Creativity-E91E63?style=for-the-badge" alt="Creativity"/>
+                            <img src="https://img.shields.io/badge/Attention_to_Detail-795548?style=for-the-badge" alt="Attention to Detail"/>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+
+<section id="projects" class="projects-section">
+    <div class="projects-container">
+        <div class="projects-title-wrapper">
+            <h2 class="projects-title">Projects Completed</h2>
+        </div>
+                <div class="projects-card">
+            <div class="projects-content">
+                <div class="projects-info">
+                    <h3 class="projects-card-title">Home Appliances E-Commerce System</h3>
+                    <span class="projects-date">December 2022</span>
+                    <span class="projects-role">Full-Stack Developer</span>
+                    <p class="projects-description">
+                        Developed a VB.NET and MySQL-based e-commerce platform for home appliances. Features include product catalog, shopping cart, checkout, order tracking, and sales analytics. Implemented full-stack functionality from front-end design to back-end database management.
+                    </p>
+                    <div class="projects-tech-stack">
+                        <span class="projects-tech-item">VB.NET</span>
+                        <span class="projects-tech-item">MySQL</span>
+                        <span class="projects-tech-item">E-commerce</span>
+                    </div>
+                </div>
+                <div class="projects-image-wrapper">
+                    <img src="projects\Project1.png" alt="Home Comforts E-Commerce" class="projects-image">
+                    <div class="projects-overlay">
+                        <a href="https://github.com/AysssScream/Home-Appliances-E-Commerce-System-Home-Comforts-" target="_blank" class="view-project-btn">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-card">
+            <div class="projects-content reverse">
+                <div class="projects-image-wrapper">
+                    <img src="projects\project2.png" alt="Quiz Master Pro" class="projects-image">
+                    <div class="projects-overlay">
+                        <a href="https://github.com/AysssScream/Quiz-Master-Pro" target="_blank" class="view-project-btn">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="projects-info">
+                    <h3 class="projects-card-title">Quiz Master Pro: Online Quiz System</h3>
+                    <span class="projects-date">December 2023</span>
+                    <span class="projects-role">Front-end Developer and Debugger</span>
+                    <p class="projects-description">
+                        Developed an online quiz system using PHP, MySQL, and JavaScript. Implemented visually appealing front-end design using CSS. Focused on creating interactive user interfaces and debugging to ensure smooth functionality.
+                    </p>
+                    <div class="projects-tech-stack">
+                        <span class="projects-tech-item">PHP</span>
+                        <span class="projects-tech-item">MySQL</span>
+                        <span class="projects-tech-item">JavaScript</span>
+                        <span class="projects-tech-item">CSS</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-card">
+            <div class="projects-content">
+                <div class="projects-info">
+                    <h3 class="projects-card-title">ARMART: POS and Inventory Management System</h3>
+                    <span class="projects-date">May 2024</span>
+                    <span class="projects-role">Full-Stack Developer</span>
+                    <p class="projects-description">
+                        Developed a comprehensive Point of Sale (POS) and Inventory Management System using VB.NET and MySQL. The system integrates sales processing, inventory tracking, and analytics features. Implemented full-stack functionality, including user interface design and database management.
+                    </p>
+                    <div class="projects-tech-stack">
+                        <span class="projects-tech-item">VB.NET</span>
+                        <span class="projects-tech-item">MySQL</span>
+                        <span class="projects-tech-item">Analytics</span>
+                        <span class="projects-tech-item">POS</span>
+                    </div>
+                </div>
+                <div class="projects-image-wrapper">
+                    <img src="projects\project3.png" alt="ARMART POS System" class="projects-image">
+                    <div class="projects-overlay">
+                        <a href="https://github.com/AysssScream/ARMART-POS-and-Inventory-Management-System-with-Analytics" target="_blank" class="view-project-btn">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-card">
+            <div class="projects-content reverse">
+                <div class="projects-image-wrapper">
+                    <img src="projects\project4.png" alt="AccesiJobs Platform" class="projects-image">
+                    <div class="projects-overlay">
+                        <a href="https://github.com/AysssScream/PWD-Job-Finder-Capstone-Project" target="_blank" class="view-project-btn">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+                <div class="projects-info">
+                    <h3 class="projects-card-title">AccesiJobs: Job Finder Platform for PWDs</h3>
+                    <span class="projects-date">December 2024</span>
+                    <span class="projects-role">Full-Stack Developer</span>
+                    <p class="projects-description">
+                        Developed using PHP, Laravel, JavaScript, Python, APIs, Bootstrap, and Tailwind CSS for creating an accessible job search interface tailored for Persons with Disabilities (PWDs). Integrated resume parsing algorithms using PythonAnywhere and Flask.
+                    </p>
+                    <div class="projects-tech-stack">
+                        <span class="projects-tech-item">PHP</span>
+                        <span class="projects-tech-item">Laravel</span>
+                        <span class="projects-tech-item">Python</span>
+                        <span class="projects-tech-item">APIs</span>
+                        <span class="projects-tech-item">Bootstrap</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+        <div class="projects-card">
+            <div class="projects-content">
+                <div class="projects-info">
+                    <h3 class="projects-card-title">Tuckman's Model Common Themes Extraction</h3>
+                    <span class="projects-date">December 2024</span>
+                    <span class="projects-role">Data & Model Specialist</span>
+                    <p class="projects-description">
+                        Collaborated with Psychology department to extract and classify themes in Tuckman's Model stages using NLP. Utilized text classification and fine-tuned pre-trained models from Hugging Face. Focused on Storming stage, implementing pattern recognition across stages.
+                    </p>
+                    <div class="projects-tech-stack">
+                        <span class="projects-tech-item">NLP</span>
+                        <span class="projects-tech-item">Python</span>
+                        <span class="projects-tech-item">Hugging Face</span>
+                        <span class="projects-tech-item">Text Classification</span>
+                    </div>
+                </div>
+                <div class="projects-image-wrapper">
+                    <img src="projects\image.png" alt="Tuckman's Model Analysis" class="projects-image">
+                    <div class="projects-overlay">
+                        <a href="https://github.com/yourusername/tuckmans-model" target="_blank" class="view-project-btn">
+                            <i class="fab fa-github"></i>
+                            View Project
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="projects-navigation">
+        <a href="https://github.com/AysssScream?tab=repositories" target="_blank" class="view-more-btn">
+            <span>View More Projects</span>
+            <i class="fas fa-arrow-right"></i>
+        </a>
+    </div>
+    
+</section>
+
+
+
+<section id="quote" class="quote-section">
+    <div class="quote-container">
+        <div class="quote-wrapper">
+            <div class="quote-icon">
+                <i class="fas fa-quote-right"></i>
+            </div>
+            <div class="quote-content">
+                <p class="quote-text">
+                    "Success is not final, failure is not fatal: it is the courage to continue that counts. In the world of technology and innovation, persistence and continuous learning are the keys to achieving extraordinary things."
+                </p>
+                <div class="quote-author">
+                    <div class="author-line"></div>
+                    <h3>Winston Churchill</h3>
+                    <span>Modified for Technology Context</span>
+                </div>
+            </div>
+        </div>
+    </div>
+</section>
+
+<style>
+/* Quote Section Variables */
+:root {
+    --quote-bg: #f8f9fa;
+    --quote-text: #2c3e50;
+    --quote-accent: #2196F3;
+    --quote-secondary: #E91E63;
+    --quote-light: #6c757d;
+}
+
+/* Quote Section Base Styles */
+.quote-section {
+    background: var(--quote-bg);
+    padding: 120px 0;
+    position: relative;
+    overflow: hidden;
+}
+
+.quote-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 20px;
+}
+
+.quote-wrapper {
+    max-width: 900px;
+    margin: 0 auto;
+    text-align: center;
+    position: relative;
+}
+
+/* Quote Icon Styles */
+.quote-icon {
+    font-size: 4rem;
+    color: var(--quote-accent);
+    opacity: 0.1;
+    margin-bottom: 30px;
+}
+
+/* Quote Content Styles */
+.quote-content {
+    position: relative;
+    z-index: 1;
+}
+
+.quote-text {
+    font-size: 2rem;
+    color: var(--quote-text);
+    line-height: 1.6;
+    font-weight: 300;
+    margin-bottom: 40px;
+    position: relative;
+}
+
+/* Quote Author Styles */
+.quote-author {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 15px;
+}
+
+.author-line {
+    width: 40px;
+    height: 2px;
+    background: linear-gradient(to right, var(--quote-accent), var(--quote-secondary));
+    margin-bottom: 5px;
+}
+
+.quote-author h3 {
+    font-size: 1.2rem;
+    color: var(--quote-text);
+    font-weight: 600;
+    margin: 0;
+}
+
+.quote-author span {
+    font-size: 0.9rem;
+    color: var(--quote-light);
+}
+
+.quote-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: 
+        linear-gradient(135deg, rgba(33, 150, 243, 0.03) 0%, transparent 50%),
+        linear-gradient(-135deg, rgba(233, 30, 99, 0.03) 0%, transparent 50%);
+    pointer-events: none;
+}
+
+@keyframes fadeIn {
+    from {
+        opacity: 0;
+        transform: translateY(20px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+.quote-wrapper {
+    animation: fadeIn 1s ease-out;
+}
+
+.quote-wrapper:hover .quote-icon {
+    transform: rotate(360deg);
+    transition: transform 0.8s ease;
+}
+
+@media (max-width: 992px) {
+    .quote-text {
+        font-size: 1.8rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .quote-section {
+        padding: 80px 0;
+    }
+
+    .quote-text {
+        font-size: 1.5rem;
+    }
+
+    .quote-icon {
+        font-size: 3rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .quote-section {
+        padding: 60px 0;
+    }
+
+    .quote-text {
+        font-size: 1.2rem;
+    }
+
+    .quote-author h3 {
+        font-size: 1.1rem;
+    }
+
+    .quote-author span {
+        font-size: 0.8rem;
+    }
+}
+
+@media print {
+    .quote-section {
+        background: white;
+        padding: 20px 0;
+    }
+
+    .quote-icon {
+        display: none;
+    }
+}
+
+@media (prefers-contrast: high) {
+    .quote-text {
+        color: #000000;
+    }
+
+    .author-line {
+        background: #000000;
+    }
+}
+
+.quote-section ::selection {
+    background: var(--quote-accent);
+    color: white;
+}
+</style>
+
+
+<!-- Footer Section -->
+<footer id="footer" class="footer">
+    <div class="footer-container">
+        <!-- Top Footer -->
+        <div class="footer-top">
+            <div class="footer-logo">
+                <h3>Jezebel</h3>
+                <p>Web Developer / UI Designer</p>
+            </div>
+            
+            <!-- Quick Links -->
+            <div class="footer-links">
+                <h4>Quick Links</h4>
+                <ul>
+                    <li><a href="#about-me">About</a></li>
+                    <li><a href="#experience">Experience</a></li>
+                    <li><a href="#projects">Projects</a></li>
+                    <li><a href="#footer">Contact</a></li>
+                </ul>
+            </div>
+
+            <!-- Contact Info -->
+            <div class="footer-contact">
+                <h4>Contact Info</h4>
+                <ul>
+                    <li>
+                        <i class="fas fa-envelope"></i>
+                        <a href="mailto:jezebel.gauiran@my.jru.edu">jezebel.gauiran@my.jru.edu</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-phone"></i>
+                        <a href="tel:09606540058">09606540058</a>
+                    </li>
+                    <li>
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>Manila, Philippines</span>
+                    </li>
+                </ul>
+            </div>
+
+            <!-- Social Links -->
+            <div class="footer-social">
+                <h4>Follow Me</h4>
+                <div class="social-icons">
+                    <a href="https://github.com/AysssScream" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-github"></i>
+                    </a>
+                    <a href="https://linkedin.com/in/yourusername" target="_blank" rel="noopener noreferrer">
+                        <i class="fab fa-linkedin-in"></i>
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- Bottom Footer -->
+        <div class="footer-bottom">
+            <div class="copyright">
+                <p>&copy; 2024 Jezebel. All rights reserved.</p>
+            </div>
+            <div class="footer-quote">
+                <p>"Creating digital experiences that make a difference"</p>
+            </div>
+        </div>
+    </div>
+</footer>
+
+ 
+    <!-- Scripts -->
+    <script src="script.js"></script>
+    <script src="https://cdn.lordicon.com/bhenfmcm.js"></script>
+
+</body>
+</html>
+
+<script>
+const typedTextSpan = document.querySelector(".typed-text");
+const texts = ["Web Developer", "UI Designer", "Full Stack Developer"];
+let textIndex = 0;
+let charIndex = 0;
+
+function type() {
+    if (charIndex < texts[textIndex].length) {
+        typedTextSpan.textContent += texts[textIndex].charAt(charIndex);
+        charIndex++;
+        setTimeout(type, 100);
+    } else {
+        setTimeout(erase, 2000);
+    }
+}
+
+function erase() {
+    if (charIndex > 0) {
+        typedTextSpan.textContent = texts[textIndex].substring(0, charIndex-1);
+        charIndex--;
+        setTimeout(erase, 50);
+    } else {
+        textIndex++;
+        if (textIndex >= texts.length) textIndex = 0;
+        setTimeout(type, 500);
+    }
+}
+
+document.addEventListener("DOMContentLoaded", function() {
+    setTimeout(type, 1000);
+});
+</script>
