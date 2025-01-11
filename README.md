@@ -9,7 +9,6 @@
     <img src="https://img.shields.io/badge/HTML5-E34F26?style=for-the-badge&logo=html5&logoColor=white"/>&nbsp;
     <img src="https://img.shields.io/badge/CSS3-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>&nbsp;
     <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>&nbsp;
-    <img src="https://img.shields.io/badge/PHP-777BB4?style=for-the-badge&logo=php&logoColor=white"/>
 </div>
 
 ## 📌 About The Portfolio
@@ -22,8 +21,8 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
   <table>
     <tr>
       <td align="center">🎯<br><b>Responsive Design</b></td>
-      <td align="center">✨<br><b>Smooth Animations</b></td>
-      <td align="center">💼<br><b>Project Showcase</b></td>
+      <td align="center">💫<br><b>Smooth Animations</b></td>
+      <td align="center">🎨<br><b>Modern UI</b></td>
       <td align="center">📱<br><b>Mobile-First Approach</b></td>
     </tr>
   </table>
@@ -40,7 +39,7 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
         <img src="https://img.shields.io/badge/JavaScript-F7DF1E?style=for-the-badge&logo=javascript&logoColor=black"/>
       </td>
       <td align="center" width="33.33%">
-        <h4>🎨 Design & Animation</h4>
+        <h4>🎯 Animations</h4>
         <img src="https://img.shields.io/badge/CSS_Animations-1572B6?style=for-the-badge&logo=css3&logoColor=white"/>
         <img src="https://img.shields.io/badge/Lord_Icon-000000?style=for-the-badge&logo=lordicon&logoColor=white"/>
       </td>
@@ -75,21 +74,20 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 - Soft Skills showcase
 
 ### 4. Projects
-- Project cards with hover effects
+- Interactive project cards
 - GitHub repository links
-- Technical stack used
+- Technology stack used
 - Project descriptions
 
 ### 5. Quote Section
 - Inspirational quote display
-- Animated background
+- Animated elements
 - Professional styling
 
 ### 6. Footer
 - Contact information
 - Quick links
 - Social media connections
-- Copyright information
 
 ## 💫 Implementation Highlights
 
