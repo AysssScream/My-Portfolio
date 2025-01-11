@@ -422,21 +422,6 @@ lord-icon:hover {
     }
 }
 
-@media (prefers-color-scheme: dark) {
-    .skill-category {
-        background: #2d2d2d;
-        box-shadow: 0 10px 30px rgba(0, 0, 0, 0.3);
-    }
-
-    .skill-header h3,
-    .group-header h4 {
-        color: #ffffff;
-    }
-
-    .experience-section::before {
-        opacity: 0.1;
-    }
-}
 
 @media (hover: none) {
     .skill-category:hover {

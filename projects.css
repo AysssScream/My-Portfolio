@@ -640,4 +640,138 @@ html {
     filter: blur(0);
 }
 
+/* View More Button Styles */
+.projects-navigation {
+    text-align: center;
+    margin-top: 60px;
+    padding-bottom: 40px;
+}
+
+.view-more-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    gap: 12px;
+    padding: 16px 32px;
+    background: linear-gradient(45deg, var(--projects-primary), var(--projects-secondary));
+    color: var(--projects-text);
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: 600;
+    font-size: 1.1rem;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 15px rgba(33, 150, 243, 0.3);
+    position: relative;
+    overflow: hidden;
+    border: 2px solid transparent;
+}
+
+/* Hover Effect */
+.view-more-btn:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 6px 20px rgba(33, 150, 243, 0.4);
+    background: linear-gradient(45deg, var(--projects-secondary), var(--projects-primary));
+}
+
+/* Active State */
+.view-more-btn:active {
+    transform: translateY(-1px);
+    box-shadow: 0 3px 10px rgba(33, 150, 243, 0.3);
+}
+
+/* Icon Animation */
+.view-more-btn i {
+    transition: transform 0.3s ease;
+    font-size: 1.2em;
+}
+
+.view-more-btn:hover i {
+    transform: translateX(5px);
+}
+
+/* Shine Effect */
+.view-more-btn::after {
+    content: '';
+    position: absolute;
+    top: -50%;
+    left: -50%;
+    width: 200%;
+    height: 200%;
+    background: linear-gradient(
+        45deg,
+        transparent,
+        rgba(255, 255, 255, 0.1),
+        transparent
+    );
+    transform: rotate(45deg);
+    transition: all 0.3s ease;
+}
+
+.view-more-btn:hover::after {
+    animation: shine 1.5s infinite;
+}
+
+@keyframes shine {
+    0% {
+        transform: translateX(-100%) rotate(45deg);
+    }
+    100% {
+        transform: translateX(100%) rotate(45deg);
+    }
+}
+
+/* Focus State */
+.view-more-btn:focus {
+    outline: none;
+    box-shadow: 0 0 0 3px rgba(33, 150, 243, 0.5);
+}
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+    .projects-navigation {
+        margin-top: 40px;
+    }
+
+    .view-more-btn {
+        padding: 14px 28px;
+        font-size: 1rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .view-more-btn {
+        padding: 12px 24px;
+        font-size: 0.9rem;
+    }
+}
+
+/* Dark Mode Support */
+@media (prefers-color-scheme: dark) {
+    .view-more-btn {
+        background: linear-gradient(45deg, var(--projects-primary), var(--projects-secondary));
+    }
+}
+
+/* High Contrast Mode */
+@media (prefers-contrast: high) {
+    .view-more-btn {
+        background: var(--projects-primary);
+        border: 2px solid white;
+    }
+}
+
+.view-more-btn.loading {
+    pointer-events: none;
+    opacity: 0.8;
+}
+
+.view-more-btn.loading i {
+    animation: spin 1s infinite linear;
+}
+
+@keyframes spin {
+    100% {
+        transform: rotate(360deg);
+    }
+}
 
