@@ -241,3 +241,9 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 <div align="center">
   <img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=120&section=footer&animation=fadeIn" width="100%"/>
 </div>
+
+<div align="center">
+  <img src="https://capsule-render.vercel.app/api?type=waving&color=2196F3&height=120&section=footer&animation=fadeIn" width="100%"/>
+  
+  <h3>Made with ❤️ by Jezebel Gauiran (AysssScream)</h3>
+</div>
