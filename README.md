@@ -55,40 +55,89 @@ A modern, responsive portfolio website showcasing my skills, projects, and exper
 
 ## 🖥️ Website Sections
 
-### 1. Hero Section
-- Dynamic typing animation
-- Animated background elements
-- Call-to-action buttons
-- Tech stack display
+<div align="center">
+  <table width="100%">
+    <tr>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>🚀 Hero Section</h3>
+          <ul align="left">
+            <li>Dynamic typing animation showing my roles</li>
+            <li>Professional introduction</li>
+            <li>Download CV button</li>
+            <li>Social media links</li>
+            <li>Animated background elements</li>
+          </ul>
+        </div>
+      </td>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>👨‍💻 About Me</h3>
+          <ul align="left">
+            <li>Brief personal introduction</li>
+            <li>Educational background</li>
+            <li>Years of experience</li>
+            <li>Projects completed</li>
+            <li>Technologies used</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>⚡ Skills & Experience</h3>
+          <ul align="left">
+            <li>Programming Languages</li>
+            <li>Front-End Development</li>
+            <li>Back-End Development</li>
+            <li>Data Science & ML Tools</li>
+            <li>Design Tools & Databases</li>
+          </ul>
+        </div>
+      </td>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>🎯 Projects</h3>
+          <ul align="left">
+            <li>Home Appliances E-Commerce</li>
+            <li>Quiz Master Pro System</li>
+            <li>ARMART: POS System</li>
+            <li>AccesiJobs Platform</li>
+            <li>Tuckman's Model Analysis</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+    <tr>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>💭 Quote Section</h3>
+          <ul align="left">
+            <li>Inspirational quote display</li>
+            <li>Professional styling</li>
+            <li>Animated elements</li>
+            <li>Gradient background</li>
+            <li>Responsive design</li>
+          </ul>
+        </div>
+      </td>
+      <td width="50%" align="center">
+        <div style="background: #f8f9fa; padding: 20px; border-radius: 10px; margin: 10px; box-shadow: 0 4px 8px rgba(0,0,0,0.1);">
+          <h3>📬 Footer</h3>
+          <ul align="left">
+            <li>Contact information</li>
+            <li>Quick navigation links</li>
+            <li>Social media links</li>
+            <li>Copyright information</li>
+            <li>Professional layout</li>
+          </ul>
+        </div>
+      </td>
+    </tr>
+  </table>
+</div>
 
-### 2. About Me
-- Professional introduction
-- Education details
-- Experience statistics
-- Downloadable CV
-- Social media links
-
-### 3. Skills & Experience
-- Programming & Development skills
-- Data Science & ML capabilities
-- Tools & Technologies
-- Soft Skills showcase
-
-### 4. Projects
-- Interactive project cards
-- GitHub repository links
-- Technology stack used
-- Project descriptions
-
-### 5. Quote Section
-- Inspirational quote display
-- Animated elements
-- Professional styling
-
-### 6. Footer
-- Contact information
-- Quick links
-- Social media connections
 
 ## 💫 Implementation Highlights
 
